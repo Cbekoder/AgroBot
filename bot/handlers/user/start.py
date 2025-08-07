@@ -9,4 +9,5 @@ async def command_start_handler(message: Message) -> None:
     """
     This handler receives messages with `/start` command
     """
-    await message.answer(f"Salom, {html.bold(message.from_user.full_name)}!")
+    await message.answer(f"👋 Assalomu alaykum, {html.bold(message.from_user.full_name)}. Men AgroBotman.\n"
+                         f"📸 Iltimos, o‘simlik rasmini yuboring va men uni tahlil qilib beraman!")
